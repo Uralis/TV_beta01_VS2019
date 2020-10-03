@@ -1,0 +1,9 @@
+#EXTM3U url-tvg="http://epg.iptvx.one/epg.xml.gz"
+#EXTINF:-1 group-title="Эфирные" tvg-id="pervy-pl2" catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" tvg-logo="https://smetconsult.ru/wp-c Приветontent/uploads/ozp-v-smete-rasshifrovka_1.jpg",Первый канал (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_2/variant.m3u8
+#EXTINF:-1 group-title="Эфирные" tvg-id="rossia1-pl2" catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" tvg-logo="https://epg.iptvx.one/icn/rossia1.svg",Россия 1 (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
+#EXTINF:-1 group-title="Эфирные" tvg-id="match-tv" catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" tvg-logo="https://epg.iptvx.one/Приветicn/match.png",Матч! HD
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTVHD/variant.m3u8
+#EXTINF:-1 group-title="Эфирные" tvg-id="ntv-pl2" catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" tvg-logo="https://epg.iptvx.one/icn/ntv-white.png",НТВ (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="CALLBACK LoadingProc.h" />
+    <ClInclude Include="WINAPI LoadingResource.h" />
+    <ClInclude Include="WM_SETCURSOR.h" />
+    <ClInclude Include="WM_PAINT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+    <Image Include="PNG\FONLOADING.png">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+    <Image Include="PNG\black.png">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+    <Image Include="PNG\grey.png">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+    <Image Include="PNG\white.png">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+    <Image Include="PNG\NOLOGO.png">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PNG %28Resource.rc%29">
+      <UniqueIdentifier>{4269a3ac-c720-44f2-993c-e424363e340c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>PNG %28Resource.rc%29</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAIN.cpp" />
+  </ItemGroup>
+</Project>
